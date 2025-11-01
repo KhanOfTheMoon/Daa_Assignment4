@@ -27,8 +27,8 @@ public class Graph {
     public Integer idxOf(String id) { return idToIdx.get(id); }
 
     public static Graph condensation(Graph g, int[] compId, int compCount, int[] compDur) {
-        List<String> ids = new ArrayList<>();
-        for (int c = 0; c < compCount; c++) ids.add("C" + c);
+        List<String> ids = new ArrayList<>(compCount);
+        for (int c = 0; c < compCount; c++) ids.add("C"+c);
         Set<Long> seen = new HashSet<>();
         List<int[]> edges = new ArrayList<>();
         for (int u = 0; u < g.n(); u++) {
