@@ -19,7 +19,6 @@
 
 `~E` is estimated from SCC metrics: `~E ≈ scc_edge_traversals / 2`.
 
----
 
 ### Results
 
