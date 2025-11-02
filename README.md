@@ -1,6 +1,6 @@
 ## Report
 
-### Data summary (sizes & weight model)
+### Data summary
 
 * Weight model: node durations. Path cost is the sum of node times. After SCC compression a component’s time is the sum of its tasks.
 * Datasets: nine JSON files under `/data` across small / medium / large. Some are pure DAGs, some have cycles, density varies.
