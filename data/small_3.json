@@ -1,0 +1,84 @@
+{
+  "metadata" : {
+    "name" : "small_3",
+    "description" : "Small DAG",
+    "duration_unit" : "minutes"
+  },
+  "nodes" : [ {
+    "id" : "T0",
+    "duration" : 9
+  }, {
+    "id" : "T1",
+    "duration" : 5
+  }, {
+    "id" : "T2",
+    "duration" : 1
+  }, {
+    "id" : "T3",
+    "duration" : 9
+  }, {
+    "id" : "T4",
+    "duration" : 5
+  }, {
+    "id" : "T5",
+    "duration" : 3
+  }, {
+    "id" : "T6",
+    "duration" : 9
+  }, {
+    "id" : "T7",
+    "duration" : 2
+  }, {
+    "id" : "T8",
+    "duration" : 4
+  }, {
+    "id" : "T9",
+    "duration" : 8
+  } ],
+  "edges" : [ {
+    "from" : "T0",
+    "to" : "T6"
+  }, {
+    "from" : "T1",
+    "to" : "T2"
+  }, {
+    "from" : "T1",
+    "to" : "T5"
+  }, {
+    "from" : "T1",
+    "to" : "T7"
+  }, {
+    "from" : "T1",
+    "to" : "T8"
+  }, {
+    "from" : "T3",
+    "to" : "T6"
+  }, {
+    "from" : "T3",
+    "to" : "T8"
+  }, {
+    "from" : "T4",
+    "to" : "T7"
+  }, {
+    "from" : "T4",
+    "to" : "T8"
+  }, {
+    "from" : "T5",
+    "to" : "T6"
+  }, {
+    "from" : "T5",
+    "to" : "T8"
+  }, {
+    "from" : "T6",
+    "to" : "T7"
+  }, {
+    "from" : "T6",
+    "to" : "T8"
+  }, {
+    "from" : "T6",
+    "to" : "T9"
+  }, {
+    "from" : "T7",
+    "to" : "T9"
+  } ]
+}

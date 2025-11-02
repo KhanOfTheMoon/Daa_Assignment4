@@ -1,0 +1,84 @@
+{
+  "metadata" : {
+    "name" : "medium_1",
+    "description" : "Medium mixed with several SCCs",
+    "duration_unit" : "minutes"
+  },
+  "nodes" : [ {
+    "id" : "T0",
+    "duration" : 3
+  }, {
+    "id" : "T1",
+    "duration" : 8
+  }, {
+    "id" : "T2",
+    "duration" : 4
+  }, {
+    "id" : "T3",
+    "duration" : 8
+  }, {
+    "id" : "T4",
+    "duration" : 5
+  }, {
+    "id" : "T5",
+    "duration" : 9
+  }, {
+    "id" : "T6",
+    "duration" : 4
+  }, {
+    "id" : "T7",
+    "duration" : 8
+  }, {
+    "id" : "T8",
+    "duration" : 6
+  }, {
+    "id" : "T9",
+    "duration" : 5
+  }, {
+    "id" : "T10",
+    "duration" : 2
+  }, {
+    "id" : "T11",
+    "duration" : 8
+  } ],
+  "edges" : [ {
+    "from" : "T0",
+    "to" : "T4"
+  }, {
+    "from" : "T3",
+    "to" : "T4"
+  }, {
+    "from" : "T3",
+    "to" : "T11"
+  }, {
+    "from" : "T4",
+    "to" : "T7"
+  }, {
+    "from" : "T5",
+    "to" : "T7"
+  }, {
+    "from" : "T5",
+    "to" : "T8"
+  }, {
+    "from" : "T5",
+    "to" : "T9"
+  }, {
+    "from" : "T5",
+    "to" : "T10"
+  }, {
+    "from" : "T6",
+    "to" : "T11"
+  }, {
+    "from" : "T7",
+    "to" : "T9"
+  }, {
+    "from" : "T2",
+    "to" : "T4"
+  }, {
+    "from" : "T4",
+    "to" : "T5"
+  }, {
+    "from" : "T5",
+    "to" : "T2"
+  } ]
+}

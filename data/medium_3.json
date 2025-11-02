@@ -1,0 +1,342 @@
+{
+  "metadata" : {
+    "name" : "medium_3",
+    "description" : "Medium mixed with several SCCs",
+    "duration_unit" : "minutes"
+  },
+  "nodes" : [ {
+    "id" : "T0",
+    "duration" : 5
+  }, {
+    "id" : "T1",
+    "duration" : 3
+  }, {
+    "id" : "T2",
+    "duration" : 8
+  }, {
+    "id" : "T3",
+    "duration" : 5
+  }, {
+    "id" : "T4",
+    "duration" : 4
+  }, {
+    "id" : "T5",
+    "duration" : 2
+  }, {
+    "id" : "T6",
+    "duration" : 5
+  }, {
+    "id" : "T7",
+    "duration" : 9
+  }, {
+    "id" : "T8",
+    "duration" : 9
+  }, {
+    "id" : "T9",
+    "duration" : 7
+  }, {
+    "id" : "T10",
+    "duration" : 9
+  }, {
+    "id" : "T11",
+    "duration" : 9
+  }, {
+    "id" : "T12",
+    "duration" : 4
+  }, {
+    "id" : "T13",
+    "duration" : 8
+  }, {
+    "id" : "T14",
+    "duration" : 4
+  }, {
+    "id" : "T15",
+    "duration" : 5
+  }, {
+    "id" : "T16",
+    "duration" : 7
+  }, {
+    "id" : "T17",
+    "duration" : 9
+  }, {
+    "id" : "T18",
+    "duration" : 2
+  }, {
+    "id" : "T19",
+    "duration" : 5
+  } ],
+  "edges" : [ {
+    "from" : "T0",
+    "to" : "T1"
+  }, {
+    "from" : "T0",
+    "to" : "T2"
+  }, {
+    "from" : "T0",
+    "to" : "T6"
+  }, {
+    "from" : "T0",
+    "to" : "T8"
+  }, {
+    "from" : "T0",
+    "to" : "T9"
+  }, {
+    "from" : "T0",
+    "to" : "T19"
+  }, {
+    "from" : "T1",
+    "to" : "T2"
+  }, {
+    "from" : "T1",
+    "to" : "T8"
+  }, {
+    "from" : "T1",
+    "to" : "T9"
+  }, {
+    "from" : "T1",
+    "to" : "T12"
+  }, {
+    "from" : "T1",
+    "to" : "T13"
+  }, {
+    "from" : "T1",
+    "to" : "T16"
+  }, {
+    "from" : "T1",
+    "to" : "T17"
+  }, {
+    "from" : "T1",
+    "to" : "T18"
+  }, {
+    "from" : "T2",
+    "to" : "T5"
+  }, {
+    "from" : "T2",
+    "to" : "T8"
+  }, {
+    "from" : "T2",
+    "to" : "T9"
+  }, {
+    "from" : "T2",
+    "to" : "T10"
+  }, {
+    "from" : "T2",
+    "to" : "T11"
+  }, {
+    "from" : "T2",
+    "to" : "T12"
+  }, {
+    "from" : "T2",
+    "to" : "T14"
+  }, {
+    "from" : "T2",
+    "to" : "T15"
+  }, {
+    "from" : "T2",
+    "to" : "T17"
+  }, {
+    "from" : "T2",
+    "to" : "T19"
+  }, {
+    "from" : "T3",
+    "to" : "T5"
+  }, {
+    "from" : "T3",
+    "to" : "T6"
+  }, {
+    "from" : "T3",
+    "to" : "T10"
+  }, {
+    "from" : "T3",
+    "to" : "T11"
+  }, {
+    "from" : "T3",
+    "to" : "T12"
+  }, {
+    "from" : "T3",
+    "to" : "T13"
+  }, {
+    "from" : "T3",
+    "to" : "T15"
+  }, {
+    "from" : "T3",
+    "to" : "T16"
+  }, {
+    "from" : "T3",
+    "to" : "T17"
+  }, {
+    "from" : "T3",
+    "to" : "T19"
+  }, {
+    "from" : "T4",
+    "to" : "T5"
+  }, {
+    "from" : "T4",
+    "to" : "T8"
+  }, {
+    "from" : "T4",
+    "to" : "T13"
+  }, {
+    "from" : "T4",
+    "to" : "T18"
+  }, {
+    "from" : "T5",
+    "to" : "T7"
+  }, {
+    "from" : "T5",
+    "to" : "T12"
+  }, {
+    "from" : "T5",
+    "to" : "T15"
+  }, {
+    "from" : "T6",
+    "to" : "T7"
+  }, {
+    "from" : "T6",
+    "to" : "T9"
+  }, {
+    "from" : "T6",
+    "to" : "T15"
+  }, {
+    "from" : "T6",
+    "to" : "T16"
+  }, {
+    "from" : "T6",
+    "to" : "T18"
+  }, {
+    "from" : "T7",
+    "to" : "T8"
+  }, {
+    "from" : "T7",
+    "to" : "T15"
+  }, {
+    "from" : "T7",
+    "to" : "T17"
+  }, {
+    "from" : "T7",
+    "to" : "T18"
+  }, {
+    "from" : "T7",
+    "to" : "T19"
+  }, {
+    "from" : "T8",
+    "to" : "T9"
+  }, {
+    "from" : "T8",
+    "to" : "T12"
+  }, {
+    "from" : "T8",
+    "to" : "T14"
+  }, {
+    "from" : "T8",
+    "to" : "T16"
+  }, {
+    "from" : "T8",
+    "to" : "T19"
+  }, {
+    "from" : "T9",
+    "to" : "T12"
+  }, {
+    "from" : "T9",
+    "to" : "T13"
+  }, {
+    "from" : "T9",
+    "to" : "T14"
+  }, {
+    "from" : "T9",
+    "to" : "T15"
+  }, {
+    "from" : "T9",
+    "to" : "T19"
+  }, {
+    "from" : "T10",
+    "to" : "T11"
+  }, {
+    "from" : "T10",
+    "to" : "T12"
+  }, {
+    "from" : "T10",
+    "to" : "T14"
+  }, {
+    "from" : "T10",
+    "to" : "T15"
+  }, {
+    "from" : "T10",
+    "to" : "T18"
+  }, {
+    "from" : "T10",
+    "to" : "T19"
+  }, {
+    "from" : "T11",
+    "to" : "T13"
+  }, {
+    "from" : "T11",
+    "to" : "T14"
+  }, {
+    "from" : "T11",
+    "to" : "T16"
+  }, {
+    "from" : "T11",
+    "to" : "T19"
+  }, {
+    "from" : "T12",
+    "to" : "T14"
+  }, {
+    "from" : "T12",
+    "to" : "T16"
+  }, {
+    "from" : "T12",
+    "to" : "T18"
+  }, {
+    "from" : "T12",
+    "to" : "T19"
+  }, {
+    "from" : "T13",
+    "to" : "T14"
+  }, {
+    "from" : "T13",
+    "to" : "T17"
+  }, {
+    "from" : "T14",
+    "to" : "T16"
+  }, {
+    "from" : "T16",
+    "to" : "T17"
+  }, {
+    "from" : "T16",
+    "to" : "T19"
+  }, {
+    "from" : "T17",
+    "to" : "T18"
+  }, {
+    "from" : "T17",
+    "to" : "T19"
+  }, {
+    "from" : "T7",
+    "to" : "T8"
+  }, {
+    "from" : "T8",
+    "to" : "T10"
+  }, {
+    "from" : "T10",
+    "to" : "T7"
+  }, {
+    "from" : "T8",
+    "to" : "T10"
+  }, {
+    "from" : "T10",
+    "to" : "T11"
+  }, {
+    "from" : "T11",
+    "to" : "T8"
+  }, {
+    "from" : "T3",
+    "to" : "T4"
+  }, {
+    "from" : "T4",
+    "to" : "T5"
+  }, {
+    "from" : "T5",
+    "to" : "T3"
+  } ]
+}

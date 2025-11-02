@@ -1,0 +1,33 @@
+{
+  "metadata" : {
+    "name" : "small_1",
+    "description" : "Small DAG",
+    "duration_unit" : "minutes"
+  },
+  "nodes" : [ {
+    "id" : "T0",
+    "duration" : 9
+  }, {
+    "id" : "T1",
+    "duration" : 4
+  }, {
+    "id" : "T2",
+    "duration" : 1
+  }, {
+    "id" : "T3",
+    "duration" : 9
+  }, {
+    "id" : "T4",
+    "duration" : 1
+  }, {
+    "id" : "T5",
+    "duration" : 8
+  } ],
+  "edges" : [ {
+    "from" : "T2",
+    "to" : "T5"
+  }, {
+    "from" : "T3",
+    "to" : "T5"
+  } ]
+}
