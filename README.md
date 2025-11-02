@@ -71,7 +71,6 @@ For every dataset: `Topo length == #SCC` and `pushes == pops == |V_DAG|`.
 
 If the printed “one optimal shortest path” is empty, the chosen target was unreachable from the chosen source in that specific run. For reproducible, non-empty shortest paths: pick source = first topo component and target = last topo component.
 
----
 
 ### Analysis
 
@@ -79,7 +78,6 @@ If the printed “one optimal shortest path” is empty, the chosen target was u
 * **Condensation shrinks the problem.** After SCC compression, the DAG size equals the number of components, so Kahn stays linear with `pushes == pops == #SCC`.
 * **DAG-SP reflects density and chain length.** As the condensation DAG gets denser and longer, relaxation counts and critical-path length grow (large_2, large_3).
 
----
 
 ### Conclusions
 
